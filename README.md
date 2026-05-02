@@ -16,10 +16,10 @@ This project investigates urban crime patterns using a dataset of over 1,000 inc
 ## 2. Introduction and Project Objectives 
 Understanding when and where crimes occur is essential for effective law enforcement and community safety planning . This project explores a real-world crime dataset to uncover hidden temporal trends .
 
-| Item | Your Content |
+| Item | Content |
 | :--- | :--- |
 | **Dataset name** | Crime Data from 2020 to Present  |
-| **Dataset source** | [Insert link to dataset]  |
+| **Dataset source** | [[Original dataset source link]](https://catalog.data.gov/dataset/crime-data-from-2020-to-present?from_hint=eyJzb3J0IjoicG9wdWxhcml0eSJ9) |
 | **Main project goal** | To analyze the relationship between time-based features and crime frequency . |
 | **Research Question 1** | How does the frequency of crime vary across different times of day (Morning, Afternoon, Evening, Night)?  |
 | **Research Question 2** | Which geographic areas act as statistical "High Density Zones" based on Z-score analysis?  |
@@ -33,8 +33,8 @@ The dataset contains detailed logs of criminal incidents, including the date, ti
 ### 3.1 Basic Dataset Information 
 | Property | Value |
 | :--- | :--- |
-| **Number of rows** | [Insert final shape from df.shape]  |
-| **Number of columns** | [Insert number of columns]  |
+| **Number of rows** | 134198 |
+| **Number of columns** | 11 |
 | **Data types present** | Numerical, Categorical, and Date-Time  |
 | **Target / Key variables** | `CRIME`, `TIME OF DAY`, `AREA NAME`  |
 | **Potential issues** | Missing weapon data and non-standard gender entries  |
